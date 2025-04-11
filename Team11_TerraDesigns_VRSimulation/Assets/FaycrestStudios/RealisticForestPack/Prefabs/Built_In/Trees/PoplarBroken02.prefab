@@ -1,0 +1,148 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8544528473561842091
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5955167467512452911}
+  - component: {fileID: 5694460799418646883}
+  - component: {fileID: 3500629986908151163}
+  m_Layer: 0
+  m_Name: PoplarBroken02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4
+  m_IsActive: 1
+--- !u!4 &5955167467512452911
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8544528473561842091}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8570548331403108844}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!205 &5694460799418646883
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8544528473561842091}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -0.10344684, y: 2.0303655, z: -0.25173748}
+  m_Size: 6.060731
+  m_FadeMode: 1
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.028165122
+    fadeTransitionWidth: 0.02
+    renderers:
+    - renderer: {fileID: 7402678160439286403}
+  m_Enabled: 1
+--- !u!136 &3500629986908151163
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8544528473561842091}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.25
+  m_Height: 5.5
+  m_Direction: 1
+  m_Center: {x: 0, y: 2.5, z: -0.075}
+--- !u!1001 &8176862577702471175
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5955167467512452911}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 1cb5ea8895d93c94fb0263cdc9b2ec09, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1cb5ea8895d93c94fb0263cdc9b2ec09, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1cb5ea8895d93c94fb0263cdc9b2ec09, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1cb5ea8895d93c94fb0263cdc9b2ec09, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1cb5ea8895d93c94fb0263cdc9b2ec09, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1cb5ea8895d93c94fb0263cdc9b2ec09, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.00000014106499
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1cb5ea8895d93c94fb0263cdc9b2ec09, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1cb5ea8895d93c94fb0263cdc9b2ec09, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1cb5ea8895d93c94fb0263cdc9b2ec09, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1cb5ea8895d93c94fb0263cdc9b2ec09, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 1cb5ea8895d93c94fb0263cdc9b2ec09, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 1cb5ea8895d93c94fb0263cdc9b2ec09, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 876680f77ac53be41bfa8bd355515dc6, type: 2}
+    - target: {fileID: -5754084199372789682, guid: 1cb5ea8895d93c94fb0263cdc9b2ec09, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: -7507003244736354253, guid: f1d3beedb88cec84b8401718c6d0bc5d, type: 3}
+    - target: {fileID: 919132149155446097, guid: 1cb5ea8895d93c94fb0263cdc9b2ec09, type: 3}
+      propertyPath: m_Name
+      value: PoplarBroken02_LOD0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1cb5ea8895d93c94fb0263cdc9b2ec09, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1cb5ea8895d93c94fb0263cdc9b2ec09, type: 3}
+--- !u!23 &7402678160439286403 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: 1cb5ea8895d93c94fb0263cdc9b2ec09, type: 3}
+  m_PrefabInstance: {fileID: 8176862577702471175}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &8570548331403108844 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 1cb5ea8895d93c94fb0263cdc9b2ec09, type: 3}
+  m_PrefabInstance: {fileID: 8176862577702471175}
+  m_PrefabAsset: {fileID: 0}
